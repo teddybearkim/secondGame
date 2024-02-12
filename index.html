@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>숫자맞추기게임</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="main-screen">
+      <h1>무인도에서 살아남기</h1>
+      <input
+        type="number"
+        id="userInput"
+        min="1"
+        max="50"
+        placeholder="1~50까지 사이 숫자를 맞추고 살아남아.."
+      />
+      <button onclick="checkGuess()" class="btn">시 작</button>
+      <button onclick="resetGame()" class="btn">초기화</button>
+      <p id="message"></p>
+      <p class="life">남은 생명: <span id="attempts">3</span></p>
+    </div>
+  </body>
+</html>

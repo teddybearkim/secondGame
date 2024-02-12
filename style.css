@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* 기본 스타일 */
+.main-screen {
+  background-image: url(https://img.freepik.com/free-vector/deserted-island-with-broken-boat-lying-on-the-beach-with-help-si_1308-89651.jpg?w=1480&t=st=1707747103~exp=1707747703~hmac=315283b8040bc05b4f6e6efd02c1a72debc736086452f8b3dc8966ac28eb67b1);
+  background-size: cover;
+  width: 40%;
+  margin: auto;
+}
+
+h1 {
+  color: #000;
+  font-weight: bold;
+}
+
+input {
+  width: 40%;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.life {
+  color: #000;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-screen {
+    width: 80%;
+  }
+
+  input {
+    width: 80%; 
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+  .main-screen {
+    width: 60%; 
+  }
+
+  input {
+    width: 60%; 
+  }
+}
